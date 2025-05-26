@@ -1,0 +1,34 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Cascadia Code';
+}
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.5em;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 10px;
+  width: 30%;
+}
+.form-group{
+  display: flex;
+
+}
+.form-group  label  {
+  flex: 2;
+}
+ .form-group input{
+  flex: 1;
+ }
+
+.show{
+  display: block;
+}
+.hide{
+  display: none;
+}
